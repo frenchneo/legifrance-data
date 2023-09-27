@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@types/node": "^20.7.0",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "dev": "tsc-watch -p tsconfig.json --onSuccess \"nodemon ./dist/index.js\""
+  }
+}

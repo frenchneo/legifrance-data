@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "lib": ["es5", "es6", "es2019", "DOM"],
+    "target": "es2017",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "declaration": false,
+    "sourceMap": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "downlevelIteration": true, // to use ES5 specific tooling
+    "resolveJsonModule": true,
+    "typeRoots": ["./types", "./node_modules/@types"]
+  },
+  "include": ["./src/**/*", "index.d.ts", "ormconfig.ts"],
+  "exclude": [
+    "./dist/**/*",
+    "./src/**/__tests__",
+    "./src/**/__mocks__",
+    "./src/**/__fixtures__",
+    "node_modules"
+  ]
+}
