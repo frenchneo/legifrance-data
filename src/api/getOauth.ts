@@ -12,7 +12,7 @@ type ResponseData = {
 };
 
 export default async (): Promise<string> => {
-  const apiUrl = "https://sandbox-oauth.piste.gouv.fr/api/oauth/token";
+  const apiUrl = "https://oauth.piste.gouv.fr/api/oauth/token";
 
   const scope = "openid";
   const body = new URLSearchParams({
