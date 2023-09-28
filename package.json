@@ -7,6 +7,6 @@
     "typescript": "^5.2.2"
   },
   "scripts": {
-    "dev": "tsc-watch -p tsconfig.json --onSuccess \"nodemon ./dist/index.js\""
+    "dev": "nodemon src/index.ts --trace-warnings"
   }
 }

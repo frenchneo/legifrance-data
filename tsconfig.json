@@ -22,6 +22,7 @@
   },
   "include": ["./src/**/*", "index.d.ts", "ormconfig.ts"],
   "exclude": [
+    "output/",
     "./dist/**/*",
     "./src/**/__tests__",
     "./src/**/__mocks__",
